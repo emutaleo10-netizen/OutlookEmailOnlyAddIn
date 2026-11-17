@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host:hostItem xmlns:host="http://schemas.microsoft.com/visualstudio/tools/office/2008/05/host"
+               xmlns="http://schemas.microsoft.com/visualstudio/tools/office/2008/05/hostItem"
+               id="ThisAddIn"
+               name="ThisAddIn"
+               primaryCookie="AddIn"
+               master="true"
+               modifier="public"
+               namespace="OutlookEmailOnlyAddIn"
+               type="Microsoft.Office.Tools.Outlook.OutlookAddInBase"
+               startupIndex="0">
+  <hostItem.hostObjects>
+    <hostObject id="Application"
+                name="Application"
+                modifier="internal"
+                type="Microsoft.Office.Interop.Outlook.Application"
+                cookie="Application" />
+  </hostItem.hostObjects>
+</host:hostItem>
